@@ -21,7 +21,7 @@ function crearUsuario() {
          return ('Hola, mi nombre es ' + this.nombre);
       }
    }
-   var usuario1 = new Usuario (001,'Juan', 'correo@mail.com', '12364sada');
+   var usuario1 = new Usuario ('1','Juan', 'correo@mail.com', '12364sada');
    usuario1.saludar();
 }
 crearUsuario();
