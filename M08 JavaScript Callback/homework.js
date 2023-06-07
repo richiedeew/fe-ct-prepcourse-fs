@@ -86,7 +86,7 @@ function filter(arrayOfStrings) {
          nuevoArray.push(arrayOfStrings[i]);
       }
    }
-   console.log (nuevoArray);
+   return (nuevoArray);
 }
 filter();
 
